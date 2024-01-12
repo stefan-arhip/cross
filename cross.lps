@@ -8,9 +8,10 @@
       <Unit0>
         <Filename Value="cross.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="19"/>
-        <CursorPos Y="38"/>
+        <TopLine Value="18"/>
+        <CursorPos X="11" Y="47"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -21,9 +22,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uMain"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="320"/>
-        <CursorPos X="29" Y="344"/>
+        <TopLine Value="321"/>
+        <CursorPos X="20" Y="330"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>

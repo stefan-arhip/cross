@@ -37,14 +37,14 @@ begin
   Application.Initialize;
 
   CurrentUser := GetUserFromWindows;
-  if not AnsiContainsText(',stefan.arhip,t1-stefan,t1-catalin,t1-radu,',
-    ',' + CurrentUser + ',') then
-  begin
-    MessageDlg(QuotedStr(CurrentUser) + ' has no rights to use CROSS!',
-      mtWarning, [mbOK], 0);
-    Application.Terminate;
-  end
-  else
+  //if not AnsiContainsText(',stefan.arhip,t1-stefan,t1-catalin,t1-radu,',
+  //  ',' + CurrentUser + ',') then
+  //begin
+  //  MessageDlg(QuotedStr(CurrentUser) + ' has no rights to use CROSS!',
+  //    mtWarning, [mbOK], 0);
+  //  Application.Terminate;
+  //end
+  //else
   begin
     Application.CreateForm(TfMain, fMain);
     Application.Run;
