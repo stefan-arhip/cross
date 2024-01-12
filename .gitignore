@@ -1,0 +1,9 @@
+SETUP/
+TEMP/
+backup/
+lib/
+*.exe
+*.md5
+*.ico
+Launcher.exe
+Launcher.ini
